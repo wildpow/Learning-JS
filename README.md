@@ -3,4 +3,4 @@
 
 Day one:
 
-Completed chapter 1 and 2 of Head First JavaScript Book. Pushed code for battleship example to get hub. 
+Completed chapter 1 and 2 of Head First JavaScript Book. Pushed code for battleship example to github. 
