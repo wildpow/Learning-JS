@@ -11,4 +11,4 @@ Chapter 3 of Head First JavaScript. Learning about functions and the difference 
 
 Day tree:
 
-Chapter 4 of Head First JavaScript. Learning about arrays and stuff.
+Chapter 4 of Head First JavaScript. Learning about arrays and stuff. Bubble test exercise takes an array, prints it to the console and finds the highest number in the array.
