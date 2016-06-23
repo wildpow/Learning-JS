@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>blank</title>
+    <script>
+        //length and charAt methods
+        var input = "jenny@wickedlysmart.com";
+        for(var i = 0; i < input.length; i++) {
+            if (input.charAt(i) === "@") {
+                console.log("There's an @ sign at index " + i);
+            }
+        }
+        //indexOf method
+        var phrase = "the cat in the hat";
+        var index = phrase.indexOf("cat");
+        console.log("there's a cat sitting at index " + index);
+        
+        //substring method
+        var data = "name|phone|address";
+        var val = data.substring(5, 10);
+        console.log("Substring is " + val);
+        
+        //split method
+        var data2 = "name|phone|address";
+        var vals = data2.split("|");
+        console.log("Split array is ", vals);
+        
+    </script>
+    </head>
+    <body></body>
+
+</html>
