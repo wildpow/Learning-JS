@@ -11,7 +11,7 @@ div#board {
 }
 div#messageArea {
     position: absolute;
-    top: 0px;
+    top: 80px;
     left: 0px;
     color: rgb(83,175,19);
 }
@@ -38,8 +38,8 @@ form input {
     font-size: 1em;
 }
 .hit {
-    background: url(ship.png) no-repeat center center;
+    background: url("ship.png") no-repeat center center;
 }
 .miss {
-    background: url(miss.png) no-repeat center center;
+    background: url("miss.png") no-repeat center center;
 }
