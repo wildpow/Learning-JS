@@ -27,7 +27,7 @@ var canvas;
             y:mouseY
             };
         }
-        //new
+       
 function handleMouseClick(evt) {
     if(showingWinScreen) {
         player1Score = 0;
@@ -127,11 +127,14 @@ function drawEverything() {
         canvasContext.fillStyle = 'white';
                
         if(player1Score >= WINNING_SCORE) {
-            canvasContext.fillText("Left PLayer Won!",350,200);
+            canvasContext.font = '42pt Arial';
+            canvasContext.fillText("Left Player Won!",190,200);
         } else if(player2Score >= WINNING_SCORE) {
-            canvasContext.fillText("Right PLayer Won!",350,200);
+            canvasContext.font = '42pt Arial';
+            canvasContext.fillText("Right Player Won!",190,200);
         }
-        canvasContext.fillText("Click to continue",350,500);
+        canvasContext.font = '24pt Arial';
+        canvasContext.fillText("Click to continue",290,320);
         return;
     }
     drawNet();
